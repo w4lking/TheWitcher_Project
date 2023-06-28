@@ -1,6 +1,6 @@
 @media (max-width: 1335px) {
     body{
-        background-color: black;
+        background-color: gray;
     }
 
 
@@ -21,10 +21,6 @@
         text-align: center;
     }
     
-    .container .botao-trailer{
-        background-color: #263238;
-
-    }
 }
 
 @media (max-width: 670px) {
@@ -39,14 +35,13 @@
 
     }
 
-    .modal .fechar-modal {
-        width: 30px;
-        line-height: 30px;
-    }
-
     .modal #video{
         width: 300px;
         height: 169px;
+    }
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
 
@@ -55,11 +50,16 @@
         width: 250px;
         height: 140px;
     }
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
 }
 
 @media (max-height: 900px ) {
     body{
-        overflow-y: scroll;
+        overflow-y: hidden;
+        overflow-x: hidden;
 
     }    
 }

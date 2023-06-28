@@ -195,7 +195,7 @@ body{
 }
 
 .modal.aberto {
-    opacity: 1;
+    opacity: 2;
     visibility: visible;
 }
 
